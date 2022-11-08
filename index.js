@@ -8,3 +8,4 @@ countries.forEach((country) => {
    )}' where "CountryCode" = '${country}'; \n`;
 });
 fs.writeFileSync('output.sql', output);
+console.log('1');
